@@ -1,0 +1,131 @@
+@media screen and (min-width: 1199px) {
+	.allpost_title{
+		font-size: 34px!important;
+		width: 80%!important;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.allpost_title{
+		width: 80%;
+	}
+	.allnews_title {
+	    font-size: 18px!important;
+	}
+
+	
+}
+@media screen and (min-width: 991.98px) {
+	.menu {
+		left: 0%!important;
+	}
+
+}
+@media screen and (max-width: 991.98px) { /*md*/
+	/*меню*/
+
+	.menu {
+		background: #22bf9a;
+		left: -100%;
+		height: 100vh;
+		position: fixed;
+		width: 285px;
+		z-index: 20;
+		top: 0;
+	}
+
+	.menu ul {
+		border-top: 1px solid #072821;
+	}
+
+	.menu li {
+		border-bottom: 1px solid #072821;
+		line-height: 45px;
+		padding-left: 20px;
+	}
+
+	.menu a {
+		color: #fff!important;
+		font-size: 15px;
+		text-transform: uppercase;
+	}
+	.menu a:hover{
+		color: #072821!important;
+	}
+
+	.icon-close {
+		padding: 6px 0 6px 10px;
+	}
+
+	.icon-menu img {
+		margin: 23px 0;
+	}
+	.logo1::after {
+		right: 0!important;
+		border-top: 0!important;
+		border-right: 0!important;
+
+	}
+	.logo1::before {
+		left: 0!important;
+		border-left: 0!important;
+		border-bottom: 0!important;
+	}
+	.post_foto{
+		height: 300px!important;
+	}
+	.table_score{
+		padding: 0!important;
+	}
+	.onenews_left{
+		padding: 0!important;
+	}
+	.onenews_right{
+		padding: 0!important;
+	}
+
+}
+@media screen and (max-width: 767.98px) {
+	.newpost_name p {
+		margin-bottom: 0!important;
+	}
+	.newpost_name a{
+		font-size: 14px!important;
+	}
+	.onenews_title{
+		font-size: 24px!important;
+	}
+	.onenews_description{
+		font-size: 22px!important;
+	}
+	.newpost{
+		padding: 0!important;
+	}
+	
+	
+}
+@media (max-width: 575.98px) {
+
+	.allpost_title {
+		left: 10px!important;
+		font-size: 18px!important;
+		width: calc( 100% - 20px )!important;
+	}
+	.menu {
+		width: 100%!important;
+	}
+	.allnews_foto img{
+		width: 100%!important;
+	}
+	.allnews_title{
+		font-size: 16px!important;
+		transition: 0.2s linear;
+		padding: 5px 0 6px 0!important;
+		margin-bottom: 6px;
+		border-bottom: 2px solid #072821;
+	}
+	.post_foto{
+		height: 260px!important;
+	}
+}
+

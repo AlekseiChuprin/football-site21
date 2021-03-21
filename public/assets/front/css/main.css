@@ -1,0 +1,361 @@
+/*спецификация*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	padding: 0;
+	margin: 0;
+}
+
+ul,li{
+	box-sizing: border-box;
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+div, section, span, input, button{
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/*.dropdown:hover>.dropdown-menu {
+  display: block;
+}*/
+
+.col-width {
+  padding: 0 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1600px;
+  position: relative;
+}
+.header{
+	background: #22bf9a;
+	color: white;
+	margin-bottom: 25px;
+}
+.logo{
+	color: #22bf9a;
+	background: #072821;
+	text-decoration: none;
+}
+.logo a{
+	color: #22bf9a!important;
+	background: #072821;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.menu ul li a{
+	margin: 3px;
+	padding: 5px;
+	font-size: 17px;
+	font-weight: 600;
+	color: #072821;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.logo{
+	height: 60px;
+}
+.logo1 {
+	position: relative; 
+}
+.logo1::after {
+	content: '';
+	position: absolute;
+	right: -12px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 60px solid #072821;
+	border-right: 12px solid transparent;
+	border-bottom: 0px solid transparent;
+}
+.logo1::before {
+	content: '';
+	position: absolute;
+	left: -12px;
+	top: 0;
+	width: 0;
+	height: 0;
+	border-top: 0px solid transparent;
+	border-left: 12px solid transparent;
+	border-bottom: 60px solid #072821;
+}
+.search{
+
+}
+
+#footer{
+	background: #072821;
+	color: #22bf9a;
+	margin-top: 15px;
+}
+#footer p{
+	padding: 25px;
+}
+.newpost{
+	padding: 0 0 0 15px;
+}
+.newpost_title{
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 15px 0 15px 0;
+}
+.newpost_name p{
+	padding: 5px 0 10px 0;
+	border-bottom: 2px solid #111;
+	margin-bottom: 10px;
+}
+.newpost_name p a{
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 0.3;
+	color: black;
+}
+.newpost_name p a:hover{
+	color: #22bf9a;
+}
+.newpost_name{
+	 margin-bottom: 25px;
+ }
+.allpost{
+	position: relative;
+	margin-bottom: 10px;
+}
+.post_foto{
+    position: relative;
+    overflow:hidden;
+    width:100%;
+    height:380px;
+}
+.post_foto img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    height:380px;
+    object-fit:cover;
+}
+
+.allpost_title{
+	position: absolute;
+	bottom: 16px;
+	left: 24px;
+	font-size: 26px;
+	line-height: 1.2;
+	color: #fff;
+	transition: 0.2s linear;
+}
+a:hover .allpost_title{
+	color: #22bf9a;
+}
+
+.new_slick .post_foto:after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.4);
+	transition: 0.2s linear;
+	z-index: 2;
+}
+.new_slick .allpost_title{
+	color: #22bf9a !important;
+	z-index: 5;
+}
+.new_slick:hover .post_foto:after{
+	background: rgba(0,0,0,0);
+	z-index: 2;
+}
+.new_slick:hover .allpost_title{
+	color: #fff!important;
+}
+.onenews{
+	padding-bottom: 25px;
+}
+.onenews_title{
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 1.2;
+	padding-bottom: 20px;
+}
+.onenews_description{
+	font-size: 24px;
+	font-weight: 600;
+	padding: 15px 0 15px 0;
+}
+.onenews_foto img{
+	width: 100%;
+}
+.onenews_text{
+	padding-top: 15px;
+	font-size: 16px;
+}
+.onenews_left{
+	padding: 0 15px 0 0;
+}
+.onenews_right{
+	padding: 0 0 0 15px;
+}
+.icon-close {
+	display: none;
+}
+
+.table_score{
+	padding: 0 15px 0 0;
+}
+.table_score th {
+	padding: 0.1rem!important;
+	font-size: 12px;
+}
+.tag-cloud-single span {
+    background: #ddd none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: inline-block !important;
+    margin-right: 0.5rem !important;
+    padding: 0 1rem;
+}
+
+.entry-date {
+    color: #aaa;
+    font-size: 14px;
+    position: relative;
+}
+
+.entry-category-icon {
+    line-height: 1;
+    margin: 0 0 10px;
+}
+
+.allnews{
+	margin: 5px 0;
+}
+#allnews a{
+	text-decoration: none;
+}
+.allnews_foto img{
+	width: 300px;
+}
+.allnews_block{
+	color: #111;
+	font-size: 14px;
+	padding: 4px 5px 4px 12px;
+	border: 1px solid transparent;
+}
+a:hover .allnews_block{
+	border: 1px solid #f3f3f3;
+}
+.allnews_block_img img{
+	width: 18px;
+	height: 18px;
+	margin-right: 6px;
+}
+.allnews_block_show{
+	margin-left: 5px;
+}
+.allnews_title{
+	font-size: 22px;
+	line-height: 1.2;
+	color: #072821;
+	transition: 0.2s linear;
+	padding: 0 0 0 12px;
+	height: 100%;
+}
+a:hover .allnews_title{
+	/*color: #22bf9a;*/
+	background: #f3f3f3;
+}
+/*пагинация*/
+.page-link {
+    position: relative;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: -1px;
+    line-height: 1.25;
+    color: #22bf9a!important;
+    background-color: #fff;
+    border: 1px solid #072821!important;
+}
+.page-item.active .page-link {
+    z-index: 2;
+    color: #072821!important;
+    background-color: #22bf9a!important;
+    border-color: #072821!important;
+}
+.allnews_pagination nav{
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+/*поиск*/
+.search_block input {
+    display: block;
+    width: 100%;
+    padding: 6px 12px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #072821;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none; 
+}
+.search_block input:active, .search_block input:focus {
+    border: 1px solid #072821!important;
+}
+.search_block_span button{
+    border: 1px solid transparent;
+    padding: 5px 12px;
+    margin-top: 1px;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: #fff;
+    outline: none; 
+}
+.search_block_span button:active, .search_block_span button:focus{
+    border: 1px solid #072821!important;
+    background-color: #22bf9a;
+}
+.search_block span{
+	margin-left: -42px;
+}
+.log_in button{
+	border: 2px solid #072821;
+    padding: 5px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #072821;
+    color: #22bf9a;
+    cursor: pointer!important;
+    transition: 0.2s linear;
+}
+.log_in button:hover{
+	background-color: #22bf9a;
+    padding: 5px 12px;
+    color: #fff;
+}

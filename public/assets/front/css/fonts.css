@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Balsamiq Sans';
+    src: url('../fonts/BalsamiqSans-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BalsamiqSans-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/BalsamiqSans-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/BalsamiqSans-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/BalsamiqSans-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/BalsamiqSans-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: 100;
+}
+
+@font-face {
+    font-family: 'BalsamiqSans';
+    src: url('../fonts/BalsamiqSans-Italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BalsamiqSans-Italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/BalsamiqSans-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/BalsamiqSans-Italic.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/BalsamiqSans-Italic.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/BalsamiqSans-Italic.svg#svgFontName') format('svg'); /* Legacy iOS */
+	font-weight: 300;
+}
+
+@font-face {
+    font-family: 'BalsamiqSans';
+    src: url('../fonts/BalsamiqSans-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BalsamiqSans-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/BalsamiqSans-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/BalsamiqSans-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/BalsamiqSans-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/BalsamiqSans-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'BalsamiqSans';
+    src: url('../fonts/BalsamiqSans-BoldItalic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/BalsamiqSans-BoldItalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/BalsamiqSans-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/BalsamiqSans-BoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/BalsamiqSans-BoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/BalsamiqSans-BoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+    font-weight: 700;
+}
